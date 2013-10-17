@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Shuttle" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     	android:gravity="center_horizontal"
+        android:text="Kuştepe - Dolapdere servisi"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/header"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="17dp"
+        android:gravity="center_horizontal"
+        android:text="@string/hello_world"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/counter"
+        android:layout_alignRight="@+id/counter"
+        android:layout_alignTop="@+id/counter"
+        android:layout_marginTop="106dp"
+        android:gravity="center_horizontal"
+        android:text="sonra kalkacak."
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/counter"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal"
+        android:text="Bütün Saatler:\n08:10 -  08:40 - 09:10  - 09:40 - 10:10 - 10:40 - 11:10 - 11:40 - 12:10 - 12:40 - 13:10 - 13:40 - 14:10 - 14:40 - 15:10 - 15:40 - 16:10 - 16:40 - 17:10 - 17:40"
+        android:textSize="20sp" />
+
+</RelativeLayout>

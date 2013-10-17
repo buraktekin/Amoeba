@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vehbi Abi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="from">Nerden?</string>
+    <string name="kus">Kuştepe</string>
+    <string name="dol">Dolapdere</string>
+    <string name="san">Santral</string>
+    <string name="kab">Kabataş</string>
+    <string name="pan">Pangaltı</string>
+    <string name="hal">Halıcıoğlu</string>
+    <string name="top">Tophane Yurdu</string>
+    <string name="title_activity_from__kus">Kuştepe\'den</string>
+    <string name="fromKusText">Kuştepe\'den nereye?</string>
+    <string name="mec">Mecdiyeköy (Trump Towers)</string>
+    <string name="title_activity_shuttle">Shuttle Saatleri</string>
+    <string name="title_activity_weekend">Haftasonu</string>
+    <string name="weekend">Tatil günleri kampüslerarası shuttle hizmeti yoktur.
+\n\nHaftasonları sadece Santral - Kabataş shuttleları çalışmaktadır;
+Cumartesi günleri saat 08:30-19:30 arası her yarım saatte bir, 
+Pazar günleri ise, 08:30 – 18:30 arası saatte bir kalkmaktadır.
+\n\nResmi tatil günleri shuttle servislerimiz hizmet vermemektedir. Sınav dönemindeysek lütfen siteyi kontrol ediniz. </string>
+    <string name="we_short">Bugün shuttle olmayabilir</string>
+    <string name="we_ok">Ben bir saatlere bakıp çıkacaktım</string>
+
+</resources>

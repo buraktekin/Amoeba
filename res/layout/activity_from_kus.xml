@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@string/fromKusText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fromKusText" />
+	    
+    <!-- basıldıgında çalışma android:onClick="sendMessage"  -->
+    
+    <Button
+        android:id="@+id/bDol" 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/dol" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bSan"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/san" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bMec"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/mec" 
+    	/>
+        
+    <Button 
+        android:id="@+id/bTop"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/top" 
+    	/>
+
+</LinearLayout>

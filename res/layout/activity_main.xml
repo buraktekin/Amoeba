@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+	    android:layout_width="fill_parent"  
+	    android:gravity="center"
+	    android:text="@string/from"
+	    android:layout_weight="1"
+		android:layout_height="0dp"/>
+	    
+    <!-- basıldıgında çalışma android:onClick="sendMessage"  -->
+    
+    <Button 
+        android:id="@+id/bKus"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/kus" 
+    	/>
+    
+    <Button
+        android:id="@+id/bDol" 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/dol" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bSan"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/san" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bKab"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/kab" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bPan"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/pan" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bHal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/hal" 
+    	/>
+    
+    <Button 
+        android:id="@+id/bTop"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/top" 
+    	/>
+
+</LinearLayout>
